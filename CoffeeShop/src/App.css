@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=IM+Fell+Great+Primer&family=Pacifico&display=swap');
 
-
+body {
+  background-image: url("https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1478&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  font-family: 'IM Fell Great Primer', serif;
+}
+.navbar {
+  background-color: white;
+  opacity: 0.8;
+}
 .map {
   width: 80%;
   padding-top: 50px;
@@ -9,14 +22,20 @@
   align-items: center;
   margin: auto;
   padding-bottom: 50px;
+  font-family: 'IM Fell Great Primer', serif;
+  color: white;
 }
 .map-container {
   padding-bottom: 25px;
   width: 100%;
   height: 50vh;
 }
+.map p {
+  font-size: 18px;
+  font-weight: 300;
+}
 .home-image {
-  opacity: 0.6;
+  opacity: 0.8;
   
 }
 .home-container {
@@ -32,18 +51,26 @@
   /* justify-content: center; */
   align-items: center;
 }
-
+.home-text h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 70px;
+}
 .home-text {
   padding-top: 25px;
   display: flex;
+  flex-direction: column;
   /* justify-content: center; */
   align-items: center;
   width: 45%;
+  color: white;
+  font-size: larger;
+  font-family: 'IM Fell Great Primer', serif;
   
   
 }
 .home-product {
-  opacity: 0.5;
+  opacity: 0.8;
+  font-family: 'IM Fell Great Primer', serif;
 }
 /* .me-auto {
   display: flex;
@@ -69,6 +96,7 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
+  font-family: 'IM Fell Great Primer', serif;
 }
 .checkout-size {
   width:50%;
@@ -80,6 +108,7 @@
 }
 .signup-container {
   width: 30%;
+  opacity: 0.8;
 }
 
 .logout-btn {
@@ -94,17 +123,26 @@
   align-items: center;
   /* margin: auto; */
   height: 90vh;
+  opacity: 0.8;
 }
 .product-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
+}
+.products-text h1 {
+  text-align: center;
 }
 .products-text {
   padding-top: 25px;
   padding-bottom: 10px;
   width: 60%;
+  font-family: 'IM Fell Great Primer', serif;
+  color: white;
+  font-size: 25px;
+  
 }
 .product-page {
   padding-bottom: 25px;

@@ -14,7 +14,8 @@ return (
    
   </div> */}
   <div className="home-text">
-  <p>Welcome to our ecommerce coffee shop! We offer the world's top 5 coffee beans, carefully selected from different parts of the globe to bring you the best coffee experience possible. Our selection includes the bright and fruity Ethiopian Yirgacheffe, the full-bodied and chocolatey Colombian Supremo, the complex and earthy Sumatran Mandheling, the sweet and nutty Brazilian Santos, and the smooth and floral Costa Rican Tarrazu. Our beans are freshly roasted to perfection and delivered straight to your door, so you can enjoy the best coffee from around the world without leaving your home.</p>
+  <h1>Welcome to Global Brews!</h1>
+    <p> Here at Global Brews we offer the world's top 15 coffee beans, carefully selected from different parts of the globe to bring you the best coffee experience possible. Our selection includes the bright and fruity Ethiopian Yirgacheffe, the full-bodied and chocolatey Colombian Supremo, the complex and earthy Sumatran Mandheling, the sweet and nutty Brazilian Santos, and the smooth and floral Costa Rican Tarrazu. Our beans are freshly roasted to perfection and delivered straight to your door, so you can enjoy the best coffee from around the world without leaving your home.</p>
   </div>
   <div className='home-product'>
   <Card style={{ width: '18rem' }}>

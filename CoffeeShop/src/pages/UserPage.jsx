@@ -32,10 +32,10 @@ export default function LogOut(){
     <div className='userpage-container'>
       <Login />
       
-    <Button variant="light" type="submit" onClick={() => logOut(setUser)} className='logout-btn'>
+    <Button variant="dark" type="submit" onClick={() => logOut(setUser)} className='logout-btn'>
      SIGN OUT
     </Button>
-    <Button variant='light' type='submit' onClick={() => delete_user(setUser)} className='logout-btn'>
+    <Button variant='dark' type='submit' onClick={() => delete_user(setUser)} className='logout-btn'>
       DELETE ACCOUNT
     </Button>
     </div>
